@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonView" customModule="viperrs" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="egK-yU-ydj" id="ZlJ-eN-WX0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="311" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egK-yU-ydj">
+                    <rect key="frame" x="0.0" y="0.0" width="311" height="79"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="top" secondItem="egK-yU-ydj" secondAttribute="top" id="3ZI-Cx-FfA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="egK-yU-ydj" secondAttribute="trailing" id="ohM-d0-5MB"/>
+                <constraint firstItem="egK-yU-ydj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="q06-gh-JiP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="egK-yU-ydj" secondAttribute="bottom" id="wlS-Nm-5jI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="63.04347826086957" y="-120.87053571428571"/>
+        </view>
+    </objects>
+</document>
